@@ -65,12 +65,13 @@
       <h2>Projects</h2>
       <div class="project-grid">
         <article class="project-card">
-          <h3>Web Vulnerability Scanner</h3>
-          <p class="project-meta">Python | Flask | OWASP ZAP | Burp Suite | Docker</p>
+          <h3>Web Security Scanner</h3>
+          <p class="project-meta">Python | Flask | OWASP ZAP | Burp Suite</p>
           <ul>
-            <li>Built a Flask-based web security scanner combining heuristic checks with OWASP ZAP automation and Burp XML import.</li>
-            <li>Implemented report exports (JSON/HTML/PDF) and severity filtering for triage.</li>
-            <li>Integrated Docker-based ZAP scanning and unified results into a single UI.</li>
+            <li>Developed a Flask web app that scans targets for common web issues (SQLi/XSS heuristics, missing security headers, open ports).</li>
+            <li>Integrated OWASP ZAP API for automated spider and active scans and parsed results into a unified UI.</li>
+            <li>Added Burp Suite XML import to consolidate professional tool findings in one place.</li>
+            <li>Implemented plain-language explanations for non-technical readers plus exportable JSON/HTML/PDF reports.</li>
           </ul>
         </article>
         <article class="project-card">
@@ -152,3 +153,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
