@@ -319,3 +319,4 @@ main {
     transition: none;
   }
 }
+\n.project-desc {\n  color: var(--muted);\n  margin: 8px 0 12px;\n  font-size: 14px;\n}\n\n.repo-link {\n  display: inline-flex;\n  gap: 6px;\n  color: var(--accent);\n  font-size: 13px;\n}\n\n.repo-link:hover {\n  color: var(--text);\n}\n
